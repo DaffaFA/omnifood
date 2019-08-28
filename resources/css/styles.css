@@ -20,6 +20,29 @@ html {
     margin: 0 auto;
 }
 
+.long-copy {
+    margin: 0 auto;
+    width: 70%;
+    line-height: 145%;
+    text-align: justify;
+}
+
+.box {
+    padding: 1%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
 section {
     padding: 80px 0;
 }
@@ -48,6 +71,13 @@ h2::after {
     content: "";
     width: 100px;
     margin: 30px auto;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 header {
@@ -138,9 +168,3 @@ h1 {
     text-align: center;
 }
 
-.long-copy {
-    margin: 0 auto;
-    width: 70%;
-    line-height: 145%;
-    text-align: justify;
-}
